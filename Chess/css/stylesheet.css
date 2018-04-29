@@ -1,0 +1,889 @@
+#nav-bar{
+    height: 100px;
+}
+
+#div1 {
+    position: relative;
+    height: 400px;
+    width: 800px;
+    margin: 50px;
+    padding: 10px;
+    -webkit-perspective: 150px; /* Chrome, Safari, Opera  */
+    perspective: 150px;
+    transform: rotateY(20deg);
+
+}
+
+#div2 {
+
+    width:656px;
+    height:400px;
+    top:10px;
+    left: 3px;
+    position: absolute;
+    z-index: -1;
+    background-color: black;
+    box-shadow:-10px 0 #5f3f3f, 0 10px #5f3f3f, 10px 0 #5f3f3f, 0 -10px #5f3f3f ;
+    box-shadow: inset;
+    -webkit-transform: rotateX(4deg); /* Chrome, Safari, Opera  */
+    transform: rotateX(4deg);
+
+
+}
+
+#ijse{
+    position: absolute;
+    top:10px;
+    right:20px;
+    color: white;
+
+}
+
+    /*opposite*/
+
+#div-opposite-rook-1{
+    position: absolute;
+    width:82px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-rook-1:hover{
+    border: 3px solid red;
+}
+#div-opposite-knight-1{
+    position: absolute;
+    left:82px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+
+}
+#div-opposite-knight-1:hover{
+    border: 3px solid red;
+}
+
+#div-opposite-bishop-1{
+    position: absolute;
+    left: 164px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+
+#div-opposite-bishop-1:hover{
+    border: 3px solid red;
+}
+#div-opposite-king{
+    position: absolute;
+    left:246px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-king:hover{
+    border: 3px solid red;
+}
+#div-opposite-queen{
+    position: absolute;
+    left:328px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-queen:hover{
+    border: 3px solid red;
+}
+#div-opposite-bishop-2{
+    position: absolute;
+    left:410px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-bishop-2:hover{
+    border: 3px solid red;
+}
+#div-opposite-knight-2{
+    position: absolute;
+    left:492px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-knight-2:hover{
+    border: 3px solid red;
+}
+#div-opposite-rook-2{
+    position: absolute;
+    left:574px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-rook-2:hover{
+    border: 3px solid red;
+}
+#div-opposite-porn-1{
+    position: absolute;
+    top:50px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-porn-1:hover{
+    border: 3px solid red;
+}
+#div-opposite-porn-2{
+    position: absolute;
+    top:50px;
+    left:82px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-porn-2:hover{
+    border: 3px solid red;
+}
+#div-opposite-porn-3{
+    position: absolute;
+    top:50px;
+    left:164px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-porn-3:hover{
+    border: 3px solid red;
+}
+#div-opposite-porn-4{
+    position: absolute;
+    top:50px;
+    left:246px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-porn-4:hover{
+    border: 3px solid red;
+}
+#div-opposite-porn-5{
+    position: absolute;
+    top:50px;
+    left:328px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-porn-5:hover{
+    border: 3px solid red;
+}
+#div-opposite-porn-6{
+    position: absolute;
+    top:50px;
+    left:410px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-porn-6:hover{
+    border: 3px solid red;
+}
+#div-opposite-porn-7{
+    position: absolute;
+    top:50px;
+    left:492px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-porn-7:hover{
+    border: 3px solid red;
+}
+#div-opposite-porn-8{
+    position: absolute;
+    top:50px;
+    left:574px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-porn-8:hover{
+    border: 3px solid red;
+}
+#div-opposite-line1-1{
+    position: absolute;
+    top:100px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-line1-1:hover{
+    border: 3px solid red;
+}
+#div-opposite-line1-2{
+    position: absolute;
+    top:100px;
+    left:82px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-line1-2:hover{
+    border: 3px solid red;
+}
+#div-opposite-line1-3{
+    position: absolute;
+    top:100px;
+    left:164px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-line1-3:hover{
+    border: 3px solid red;
+}
+#div-opposite-line1-4{
+    position: absolute;
+    top:100px;
+    left:246px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-line1-4:hover{
+    border: 3px solid red;
+}
+#div-opposite-line1-5{
+    position: absolute;
+    top:100px;
+    left:328px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-line1-5:hover{
+    border: 3px solid red;
+}
+#div-opposite-line1-6{
+    position: absolute;
+    top:100px;
+    left:410px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-line1-6:hover{
+    border: 3px solid red;
+}
+#div-opposite-line1-7{
+    position: absolute;
+    top:100px;
+    left:492px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-line1-7:hover{
+    border: 3px solid red;
+}
+#div-opposite-line1-8{
+    position: absolute;
+    top:100px;
+    left:574px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-line1-8:hover{
+    border: 3px solid red;
+}
+#div-opposite-line2-1{
+    position: absolute;
+    top:150px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-line2-1:hover{
+    border: 3px solid red;
+}
+#div-opposite-line2-2{
+    position: absolute;
+    top:150px;
+    left:82px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-line2-2:hover{
+    border: 3px solid red;
+}
+#div-opposite-line2-3{
+    position: absolute;
+    top:150px;
+    left:164px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-line2-3:hover{
+    border: 3px solid red;
+}
+#div-opposite-line2-4{
+    position: absolute;
+    top:150px;
+    left:246px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-line2-4:hover{
+    border: 3px solid red;
+}
+#div-opposite-line2-5{
+    position: absolute;
+    top:150px;
+    left:328px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-line2-5:hover{
+    border: 3px solid red;
+}
+#div-opposite-line2-6{
+    position: absolute;
+    top:150px;
+    left:410px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-line2-6:hover{
+    border: 3px solid red;
+}
+#div-opposite-line2-7{
+    position: absolute;
+    top:150px;
+    left:492px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-opposite-line2-7:hover{
+    border: 3px solid red;
+}
+#div-opposite-line2-8{
+    position: absolute;
+    top:150px;
+    left:574px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-opposite-line2-8:hover{
+    border: 3px solid red;
+}
+
+    /*myside*/
+
+#div-myside-line2-1{
+    position: absolute;
+    top:200px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-line2-1:hover{
+    border: 3px solid blue;
+}
+#div-myside-line2-2{
+    position: absolute;
+    top:200px;
+    left:82px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-line2-2:hover{
+    border: 3px solid blue;
+}
+#div-myside-line2-3{
+    position: absolute;
+    top:200px;
+    left:164px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-line2-3:hover{
+    border: 3px solid blue;
+}
+#div-myside-line2-4{
+    position: absolute;
+    top:200px;
+    left:246px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-line2-4:hover{
+    border: 3px solid blue;
+}
+#div-myside-line2-5{
+    position: absolute;
+    top:200px;
+    left:328px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-line2-5:hover{
+    border: 3px solid blue;
+}
+#div-myside-line2-6{
+    position: absolute;
+    top:200px;
+    left:410px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-line2-6:hover{
+    border: 3px solid blue;
+}
+#div-myside-line2-7{
+    position: absolute;
+    top:200px;
+    left:492px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-line2-7:hover{
+    border: 3px solid blue;
+}
+#div-myside-line2-8{
+    position: absolute;
+    top:200px;
+    left:574px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-line2-8:hover{
+    border: 3px solid blue;
+}
+#div-myside-line1-1{
+    position: absolute;
+    top:250px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-line1-1:hover{
+    border: 3px solid blue;
+}
+#div-myside-line1-2{
+    position: absolute;
+    top:250px;
+    left:82px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-line1-2:hover{
+    border: 3px solid blue;
+}
+#div-myside-line1-3{
+    position: absolute;
+    top:250px;
+    left:164px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-line1-3:hover{
+    border: 3px solid blue;
+}
+#div-myside-line1-4{
+    position: absolute;
+    top:250px;
+    left:246px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-line1-4:hover{
+    border: 3px solid blue;
+}
+#div-myside-line1-5{
+    position: absolute;
+    top:250px;
+    left:328px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-line1-5:hover{
+    border: 3px solid blue;
+}
+#div-myside-line1-6{
+    position: absolute;
+    top:250px;
+    left:410px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-line1-6:hover{
+    border: 3px solid blue;
+}
+#div-myside-line1-7{
+    position: absolute;
+    top:250px;
+    left:492px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-line1-7:hover{
+    border: 3px solid blue;
+}
+#div-myside-line1-8{
+    position: absolute;
+    top:250px;
+    left:574px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-line1-8:hover{
+    border: 3px solid blue;
+}
+#div-myside-porn-1{
+    position: absolute;
+    top:300px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-porn-1:hover{
+    border: 3px solid blue;
+}
+#div-myside-porn-2{
+    position: absolute;
+    top:300px;
+    left:82px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-porn-2:hover{
+    border: 3px solid blue;
+}
+#div-myside-porn-3{
+    position: absolute;
+    top:300px;
+    left:164px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-porn-3:hover{
+    border: 3px solid blue;
+}
+#div-myside-porn-4{
+    position: absolute;
+    top:300px;
+    left:246px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-porn-4:hover{
+    border: 3px solid blue;
+}
+#div-myside-porn-5{
+    position: absolute;
+    top:300px;
+    left:328px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-porn-5:hover{
+    border: 3px solid blue;
+}
+#div-myside-porn-6{
+    position: absolute;
+    top:300px;
+    left:410px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-porn-6:hover{
+    border: 3px solid blue;
+}
+#div-myside-porn-7{
+    position: absolute;
+    top:300px;
+    left:492px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-porn-7:hover{
+    border: 3px solid blue;
+}
+#div-myside-porn-8{
+    position: absolute;
+    top:300px;
+    left:574px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-porn-8:hover{
+    border: 3px solid blue;
+}
+#div-myside-rook-1{
+    position: absolute;
+    top:350px;
+    width:82px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-rook-1:hover{
+    border: 3px solid blue;
+}
+#div-myside-knight-1{
+    position: absolute;
+    top:350px;
+    left:82px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-knight-1:hover{
+    border: 3px solid blue;
+}
+#div-myside-bishop-1{
+    position: absolute;
+    top:350px;
+    left: 164px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-bishop-1:hover{
+    border: 3px solid blue;
+}
+#div-myside-king{
+    position: absolute;
+    top:350px;
+    left:246px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-king:hover{
+    border: 3px solid blue;
+}
+#div-myside-queen{
+    position: absolute;
+    top:350px;
+    left:328px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-queen:hover{
+    border: 3px solid blue;
+}
+#div-myside-bishop-2{
+    position: absolute;
+    top:350px;
+    left:410px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-bishop-2:hover{
+    border: 3px solid blue;
+}
+#div-myside-knight-2{
+    position: absolute;
+    top:350px;
+    left:492px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/darkwood.jpg");
+}
+#div-myside-knight-2:hover{
+    border: 3px solid blue;
+}
+#div-myside-rook-2{
+    position: absolute;
+    top:350px;
+    left:574px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-image: url("../image/whitewood.jpg");
+}
+#div-myside-rook-2:hover{
+    border: 3px solid blue;
+}
+        /*Icons*/
+
+.icons{
+    position:absolute;
+    left: 0px;
+    top:-40px;
+    width:85px;
+    height:135px;
+    box-shadow: #2b2b2b;
+    transform: rotateX(180deg);
+    transform: rotateY(10deg);
+
+}
+.icons-porn{
+    position:absolute;
+    left: 0px;
+    top:-45px;
+    width:85px;
+    height:135px;
+    box-shadow: #2b2b2b;
+    transform: rotateX(180deg);
+    transform: rotateY(10deg);
+}
+
